@@ -2,12 +2,8 @@ import 'package:quiz_app/models/quiz_question.dart';
 import 'package:quiz_app/screens/question_screen.dart';
 
 var questions = [
-  QuizQuestion("What are the main building blocks of the Flutter UIs", [
-    'Widget',
-    'Component',
-    'Blocks',
-    'Function'
-  ]),
+  QuizQuestion("What are the main building blocks of the Flutter UIs",
+      ['Widget', 'Component', 'Blocks', 'Function']),
   QuizQuestion('How are Flutter UIs built?', [
     'By combining widgets in code',
     'By combining widgets in a visual editor',
